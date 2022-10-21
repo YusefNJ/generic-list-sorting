@@ -94,7 +94,7 @@ public class Ex3 <E extends Comparable<E>>{
         //return rlist;
     }
 
-    // method overload:
+    // recursive method helper:
     public static <E extends Comparable<E>> void sortnaturalAug(List<E> list, Integer lowindex, Integer highindex){
 
         if(lowindex >= highindex) {
